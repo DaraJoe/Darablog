@@ -4,7 +4,7 @@ import styles from "./loginPage.module.css"
 import { signIn, useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 
-const loginPage = () => {
+const LoginPage = () => {
 
   const {data, status} = useSession();
 
@@ -30,4 +30,4 @@ if (status === "authenticated"){
   )
 }
 
-export default loginPage
+export default LoginPage
