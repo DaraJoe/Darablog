@@ -30,4 +30,4 @@ if (status === "authenticated"){
   )
 }
 
-export default LoginPage
+export default LoginPage;
