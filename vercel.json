@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "next.config.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "pages/api/**/*",
+        "use": "@vercel/node",
+        "config": { "prisma": true }
+      }
+    ]
+  }
+  
